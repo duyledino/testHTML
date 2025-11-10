@@ -17,8 +17,8 @@ jobs:
 
       - name: Deploy to Vercel (Production)
         run: |
-          vercel --token ${{ secrets.VERCEL_TOKEN }} \
+          vercel --token geSS1fn9JhDecBVpbZszhGGU \
                  --prod \
                  --confirm \
-                 --scope ${{ secrets.VERCEL_ORG_ID }} \
-                 --project ${{ secrets.VERCEL_PROJECT_ID }}
+                 --scope team_XT0VZ6aFCMEVIQjEEYJzaPxb \
+                 --project prj_QAUQqajuPqUk8U2JSVTD5QapfRK4
