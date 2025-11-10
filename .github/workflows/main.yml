@@ -2,7 +2,7 @@ name: Deploy to Vercel
 
 on:
   push:
-    branches: ["main"]   # deploy when pushing to main
+    branches: ["main"]  # deploy when pushing to main
 
 jobs:
   deploy:
@@ -20,5 +20,4 @@ jobs:
           vercel --token geSS1fn9JhDecBVpbZszhGGU \
                  --prod \
                  --confirm \
-                 --scope team_XT0VZ6aFCMEVIQjEEYJzaPxb \
-                 --project prj_QAUQqajuPqUk8U2JSVTD5QapfRK4
+                 --scope team_XT0VZ6aFCMEVIQjEEYJzaPxb
